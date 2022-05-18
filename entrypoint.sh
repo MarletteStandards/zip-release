@@ -10,6 +10,8 @@ then
   cd $INPUT_DIRECTORY
 fi
 
+printf "\n Archiving %s directory \n" $(pwd)
+
 if [ "$INPUT_TYPE" = "zip" ] 
 then
   if [ "$RUNNER_OS" = "Windows" ]
